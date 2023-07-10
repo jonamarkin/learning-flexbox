@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 400px;
+  background-color: lightblue;
+}
+
+.flex-item {
+  width: 400px;
+  height: 200px;
+  margin: 40px auto;
+  background-color: orange;
+  border: 1px solid black;
+}
+
+@media only screen and (min-width: 600px) {
+  .flex-item {
+    width: 250px;
+    margin: 25px;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    display: flex;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
