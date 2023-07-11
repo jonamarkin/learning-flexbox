@@ -1,9 +1,19 @@
 body {
   display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.outer-flex-container{
+  width: 150px;
 }
 
 .flex-item {
-  width: 100px;
+  width: 150px;
   height: 100px;
   background-color: darkgreen;
   color: white;
@@ -16,7 +26,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
-  width: 100px;
+  width: 150px;
   height: 800px;
   box-sizing: content-box;
   margin: 0 auto;
