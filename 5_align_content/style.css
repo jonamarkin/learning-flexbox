@@ -10,6 +10,7 @@
     background-color: black;
     display: flex;
     flex-flow: row wrap;
+    align-content: flex-end;
 }
 
 .phone-button {
@@ -25,5 +26,6 @@
     box-shadow: 4px 4px 15px greenyellow;
     color: darkgreen;
     font-weight: bold;
-    margin: 25px;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
