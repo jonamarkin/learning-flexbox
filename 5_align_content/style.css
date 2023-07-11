@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.phone-button {
+    border: 6px outset darkgreen;
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px;
+    line-height: 60px;
+    padding-top: 19px;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px greenyellow;
+    color: darkgreen;
+    font-weight: bold;
+    margin: 25px;
+}
