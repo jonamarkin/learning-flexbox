@@ -1,6 +1,10 @@
+body {
+  display: flex;
+}
+
 .flex-item {
   width: 100px;
-  height: 50px;
+  height: 100px;
   background-color: darkgreen;
   color: white;
   font-weight: bold;
@@ -11,7 +15,9 @@
 
 .flex-container {
   display: flex;
-  width: 800px;
+  flex-direction: column;
+  width: 100px;
+  height: 800px;
   box-sizing: content-box;
   margin: 0 auto;
   border: 1px solid black;
