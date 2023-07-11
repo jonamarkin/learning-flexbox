@@ -1,0 +1,39 @@
+.flex-item {
+  width: 100px;
+  height: 50px;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  border: 5px solid grey;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  width: 800px;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: lightgreen;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
