@@ -1,0 +1,69 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.flex-item {
+    height: 125px;
+    box-sizing: border-box;
+    background-color: brown;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+.fixed-width {
+    width: 200px;
+}
+
+.min-width {
+    min-width: 200px;
+}
+
+.max-width {
+    max-width: 200px;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.as-flex-start {
+    align-self: flex-start;
+}
+
+.as-flex-end {
+    align-self: flex-end;
+}
+
+.as-center {
+    align-self: center;
+}
+
+.as-baseline {
+    align-self: baseline;
+}
+
+.as-stretch {
+    align-self: stretch;
+}
+
+.flex-container div:first-child,
+.flex-container div:last-child {
+    font-size: 20px;
+}
