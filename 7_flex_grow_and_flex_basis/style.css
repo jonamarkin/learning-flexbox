@@ -3,3 +3,56 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 20px;
+}
+
+.logo {
+    height: 30px;
+    background-color: lightgreen;
+    flex-basis: 485px
+}
+
+.main-navigation {
+    display: none;
+    background-color: lightsteelblue;
+    height: 30px;
+    flex-basis: 243px;
+}
+
+.hamburger-box {
+    display: inline-block;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    display: inline-block;
+    list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+    .main-navigation {
+        display: block;
+        flex-grow: 1;
+    }
+
+    .logo {
+        flex-grow: 2;
+    }
+
+    .hamburger-box {
+        display: none;
+    }
+}
