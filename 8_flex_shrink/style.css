@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    height: 100px;
+    background-color: darkgreen;
+}
+
+.item {
+    flex-basis: 100px;
+    height: 80px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.ruler {
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    background-color: black;
+}
+
+.item.fs-3 {
+    flex-shrink: 3;
+    background-color: lightyellow;
+}
+
+.w-300 {
+    flex-basis: 300px;
+}
+
+.w-500 {
+    width: 500px;
+}
+
+.w-100percent {
+    width: 100%;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+.container.h-125 {
+    height: 125px;
+}
