@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.header,
+.main,
+.main__cta,
+.main__blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu {
+    background-color: yellowgreen;
+
+}
+
+.header__logo {
+    background-color: darkturquoise;
+    font-size: 1.5rem;
+}
+
+.main__banner {
+    background-color: blueviolet;
+}
+
+.main__signup-text {
+    background-color: chocolate;
+}
+
+.main__signup-form {
+    background-color: deeppink;
+}
+
+.main-blog__thumbnail {
+    background-color: lightgreen;
+}
+
+.main-blog__thumbnail.highlighted {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: lightgrey;
+}
+
+.item {
+    padding: 1rem;
+    outline: 1px solid black;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        flex-direction: row-reverse;
+    }
+
+    .header__menu {
+        flex: 1 1 60vw;
+    }
+
+    .header__logo {
+        flex: 2 3 40vw;
+    }
+
+    .main__cta {
+        flex-direction: row;
+    }
+
+    .main__banner {
+        flex-basis: 40vw;
+    }
+
+    .main__signup-text {
+        order: -1;
+        flex-basis: 30vw;
+    }
+
+    .main__signup-form {
+        flex-basis: 30vw;
+    }
+
+    .main__blog {
+        flex-flow: row wrap;
+    }
+
+    .main-blog__thumbnail {
+        width: 50vw;
+    }
+
+    .main-blog__thumbnail.highlighted {
+        order: -1;
+    }
+}
