@@ -40,12 +40,19 @@ header {
 
 .blogposts {
     background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .blogpost {
     min-height: 100px;
     border: 1px solid black;
     padding: 20px;
+}
+
+.blogpost.highlighted {
+    order: -1;
+    background-color: lightskyblue;
 }
 
 .blogpost-thumbnail {
@@ -92,10 +99,7 @@ header {
         display: block;
     }
 
-    .blogposts {
-        display: flex;
-        flex-wrap: wrap;
-    }
+
 
     .blogpost {
         width: 50%;
