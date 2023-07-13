@@ -50,3 +50,39 @@ header {
     background-color: lightyellow;
     border: 1px solid black;
 }
+
+
+.d-none {
+    display: none;
+}
+
+@media only screen and (min-width:600px) {
+    body {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .d-sm-block {
+        display: block;
+    }
+
+    .blogposts {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blogpost {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+    body {
+        width: 700px;
+    }
+
+    blogpost {
+        width: 33.33%;
+    }
+}
