@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+header,
+footer {
+    background-color: lightgreen;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,4 +28,25 @@ header {
 
 .nav-link {
     margin-right: 20px;
+}
+
+.main-banner {
+    background-color: lightsalmon;
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+.blogposts {
+    background-color: lightblue;
+}
+
+.blogpost {
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+.contact-form {
+    min-height: 100px;
+    background-color: lightyellow;
+    border: 1px solid black;
 }
