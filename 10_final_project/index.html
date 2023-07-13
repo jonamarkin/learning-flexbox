@@ -57,13 +57,35 @@
             </div>
         </section>
         <section id="contact" class="contact-form">
-            <div class="form-flex-item">
-                <label class="form-label">
-                    Name
-                    <input type="text" class="form-input" name="name" />
-                </label>
 
-            </div>
+            <form method="POST" action="#" class="contact-form">
+                <div class="form-flex-item">
+                    <label class="form-label">
+                        Name
+                        <input type="text" class="form-input" name="name" />
+                    </label>
+
+                </div>
+                <div class="form-flex-item">
+                    <label class="form-label">
+                        Email
+                        <input type="email" class="form-input" name="email" />
+                    </label>
+
+                </div>
+                <div class="form-flex-item">
+                    <label class="form-label">
+                        Message
+                        <textarea name="message" class="form-textarea"></textarea>
+                    </label>
+                </div>
+                <div class="form-flex-item">
+                    <button class="btn-send" type="submit">
+                        Send
+                    </button>
+                </div>
+            </form>
+
         </section>
 
     </main>
