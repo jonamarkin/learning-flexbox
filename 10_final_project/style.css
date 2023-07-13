@@ -13,3 +13,12 @@ header {
 .header-title {
     margin-left: 20px;
 }
+
+.header-navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
