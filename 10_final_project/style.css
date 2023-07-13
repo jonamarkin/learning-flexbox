@@ -108,7 +108,7 @@ header {
         width: 700px;
     }
 
-    blogpost {
+    .blogpost {
         width: 33.33%;
     }
 }
